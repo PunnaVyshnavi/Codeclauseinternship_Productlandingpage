@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Product Landing Page</title>
+</head>
+<body>
+
+  <header>
+    <h1>Ringlets</h1>
+<h2>Fancy Rings</h2>
+  </header>
+
+  <section class="product-info">
+    <img src="https://image.brilliantearth.com/blogprod/news/wp-content/uploads/2021/02/24142732/20201210-wg-north-star-lunette-wb-nouveu-wb-800x800-1.png" alt="Product Image">
+<img src="https://i.etsystatic.com/37419788/r/il/fcb630/4270789589/il_570xN.4270789589_1ok4.jpg" alt="Product Image">
+    <p>Searching for a perfect gift?Here you go!</p>
+    <button id="buyButton">Buy Now</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Vyan ED</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 2em 0;
+}
+
+.product-info {
+  text-align: center;
+  padding: 3em;
+}
+
+img {
+  max-width: 30%;
+  height: 50;
+  margin-bottom: 2em;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 0.1 em 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+</style>
+<script>
+document.getElementById('buyButton').addEventListener('click', function() {
+  alert('Thank you for purchasing our product!');
+});
+</script>
+</html>
